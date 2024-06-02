@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Initialize a new git repository
 git init
 
-echo "Successfully initialized a new Git repository!"
+# Create a README file
+echo "# New Repository" > README.md
+
+# Stage the README file
+git add README.md
+
+# Commit the README file
+git commit -m "Initial commit with README file"
