@@ -1,0 +1,10 @@
+#!/bin/bash
+
+git add -A
+
+echo "Enter a commit message: "
+read message
+
+git commit -m "$message"
+
+echo "Successfully staged and committed all modified files!"
