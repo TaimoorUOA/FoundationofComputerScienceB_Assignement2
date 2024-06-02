@@ -1,9 +1,10 @@
 #!/bin/bash
 
+# Initialize a new git repository
+git init
 
-touch file3.txt
+# Create a file named file3.txt
+echo "This is file3.txt" > file3.txt
 
+# Stage the file3.txt
 git add file3.txt
-
-
-echo "Successfully created and staged file3.txt!"
