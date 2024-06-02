@@ -3,11 +3,8 @@
 # Initialize a new git repository
 git init
 
-# Create a README file
-echo "# New Repository" > README.md
+# Create a file named file3.txt
+echo "This is file3.txt" > file3.txt
 
-# Stage the README file
-git add README.md
-
-# Commit the README file
-git commit -m "Initial commit with README file"
+# Stage the file3.txt
+git add file3.txt
